@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeolenkoChatView_Example' do
+  pod 'GeolenkoChatView', :path => '../'
+
+  target 'GeolenkoChatView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
